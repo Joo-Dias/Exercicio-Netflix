@@ -102,5 +102,9 @@ public class NetflixController implements INetflixController {
 			throw new IOException("Arquivo inválido!");
 		}
 	}
+	
+	private void geraFilas(String path, String nome) {
+		
+	}
 
 }
